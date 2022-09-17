@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import Navbar from "../../components/Navbar"
 
+
 const Home = () => {
     return (
-    <div className='w-full h-screen bg-cover font-poppins' style={{backgroundImage:`url(/ressources/bg-banner.jpg)`}}>
+    <div className='w-full h-screen bg-cover font-poppins ' style={{backgroundImage:"url(/bonsaiManagement/ressources/bgbanner.jpg)"}}>
+        
         <Navbar />
         <div className='flex justify-center pt-20'>
             <div className="max-w-7xl w-full mx-4 grid sm:grid-cols-1 md:grid-cols-3">
