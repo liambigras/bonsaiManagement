@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "features": "Features",
+        "pricing":"Pricing",
+        "signIn" : "Sign in",
+        "language": "FR"
+    },
+    "components": {
+        "getQuote": "Get a quote"
+    },
+    "homepage": {
+        "title": "Simplified Condo Management.",
+        "description": "Offer the best condo experience to your residents while having the tools for efficient management."
+    }
+}
