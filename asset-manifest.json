@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bonsaiManagement/static/css/main.388f8d01.css",
+    "main.js": "/bonsaiManagement/static/js/main.666ca741.js",
+    "static/js/787.217d243d.chunk.js": "/bonsaiManagement/static/js/787.217d243d.chunk.js",
+    "index.html": "/bonsaiManagement/index.html",
+    "main.388f8d01.css.map": "/bonsaiManagement/static/css/main.388f8d01.css.map",
+    "main.666ca741.js.map": "/bonsaiManagement/static/js/main.666ca741.js.map",
+    "787.217d243d.chunk.js.map": "/bonsaiManagement/static/js/787.217d243d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.388f8d01.css",
+    "static/js/main.666ca741.js"
+  ]
+}
