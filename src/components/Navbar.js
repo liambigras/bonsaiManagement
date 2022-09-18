@@ -1,6 +1,7 @@
 import { Menu, Transition  } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
-import { ChevronDownIcon, DocumentTextIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, Bars4Icon, CurrencyDollarIcon, LanguageIcon } from '@heroicons/react/20/solid'
+import { Cog6ToothIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
 import useLocales from '../hooks/useLocales';
 import logo from '../logo.svg';
 
@@ -12,7 +13,7 @@ const Navbar = () => {
             <img  width="150px" height="auto" className=" flex align-middle" src={logo} style={{  verticalAlign:"middle", backgroundRepeat: "no-repeat"}}alt="logo"/>
             <span className="  flex-row space-x-6 items-center hidden md:flex">
                 <ul className="flex  flex-row space-x-8 font-normal items-center text-lg">
-                    <li><MyDropdown /></li>
+                    <li><FeaturesDropDown /></li>
                     
                     <li className="hover:text-[#229A16]"><button>{translate("navbar.pricing")}</button></li>
                     <li className="hover:text-[#229A16]"><button>{translate("navbar.signIn")}</button></li>
@@ -22,12 +23,12 @@ const Navbar = () => {
                     {translate("components.getQuote")}
                 </button>
             </span>
-            
+            <MobileDropDown className="flex md:hidden" />
         </div>
     </div>)
 }
 
-const MyDropdown = () => {
+const FeaturesDropDown = () => {
     const { translate } = useLocales();
     return (
         <div >
@@ -114,6 +115,95 @@ const MyDropdown = () => {
         </div>
       )
   }
+
+  const MobileDropDown = (props) => {
+    const { translate, onChangeLang } = useLocales();
+    return (
+        <div {...props}>
+          <Menu as="div" className="relative inline-block text-left z-10">
+            <div className='flex items-center'>
+              <Menu.Button className="inline-flex w-full justify-center  py-2 text-lg font-normal  ">
+                <Bars4Icon
+                  className="ml-2 -mr-1 mt-1 h-10 w-10 "
+                  aria-hidden="true"
+                />
+              </Menu.Button>
+            </div>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div className="px-1 py-1 ">
+                  <Menu.Item>
+                    {({ active }) => (
+                       
+                      <button
+                        className={`${
+                          active ? 'bg-[#229A16] text-white' : 'text-gray-900'
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm space-x-1`}
+                      >
+                         <Cog6ToothIcon className="mr-3 w-5"   aria-hidden="true"/>
+                        {translate('navbar.features')}
+                      </button>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button
+                        className={`${
+                          active ? 'bg-[#229A16] text-white' : 'text-gray-900'
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        <CurrencyDollarIcon className="mr-3 w-5"   aria-hidden="true"/>
+                        {translate("navbar.pricing")}
+                      </button>
+                    )}
+                  </Menu.Item>
+                </div>
+                <div className="px-1 py-1">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button
+                        className={`${
+                          active ? 'bg-[#229A16] text-white' : 'text-gray-900'
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        <ArrowRightOnRectangleIcon className="mr-3 w-5"/>
+                        {translate('navbar.signIn')}
+                      </button>
+                    )}
+                  </Menu.Item>
+                  
+                </div>
+                <div className="px-1 py-1">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <button
+                      onClick={()=>{onChangeLang(translate("navbar.language").toLocaleLowerCase())}}
+                        className={`${
+                          active ? 'bg-[#229A16] text-white' : 'text-gray-900'
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        <LanguageIcon className="mr-3 w-5"/>
+                        {translate('navbar.language')}
+                      </button>
+                    )}
+                  </Menu.Item>
+                  
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
+        </div>
+      )
+  }
+
 
   const News = (props) => {
       return (
