@@ -18,7 +18,7 @@ const Block = (props) => {
             <span />
             <p className='text-zinc-500 py-10 text-2xl md:col-span-2 max-w-3xl' s>{translate("homepage.description")}</p>
             <span />
-            <button className="h-12 w-auto rounded-md text-white font-semibold w-auto lg:w-2/3" style={{background:"linear-gradient(to top,#54a832,#a1b81c)", padding:"13px 10px", opacity: opacity, }}>
+            <button className="h-12 w-auto rounded-md text-white font-semibold w-auto lg:w-2/3 hover:translate-x-1 duration-150" style={{background:"linear-gradient(to top,#54a832,#a1b81c)", padding:"13px 10px", opacity: opacity, }}>
                 {translate("components.getQuote")}
             </button>            
         </div>
@@ -30,7 +30,7 @@ const ViewportBlock = handleViewport(Block);
 const Home = () => {
     
     return (
-    <div className='w-full h-screen bg-cover font-poppins bg-center' style={{backgroundImage:"url(/bonsaiManagement/ressources/bgbanner.jpg)"}}>
+    <div className='w-full h-screen bg-auto font-poppins bg-center' style={{backgroundImage:"url(/bonsaiManagement/ressources/bgbanner.jpg)"}}>
         
         <Navbar />
         <ViewportBlock  />

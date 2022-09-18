@@ -9,12 +9,12 @@ const Navbar = () => {
             <img  width="150px" height="auto" className=" flex align-middle" src={logo} style={{  verticalAlign:"middle", backgroundRepeat: "no-repeat"}}alt="logo"/>
             <span className="  flex-row space-x-6 items-center hidden md:flex">
                 <ul className="flex  flex-row space-x-8 font-normal items-center text-lg">
-                    <li><button>{translate("navbar.features")}</button></li>
-                    <li><button>{translate("navbar.pricing")}</button></li>
-                    <li><button>{translate("navbar.signIn")}</button></li>
-                    <li><button onClick={()=>{onChangeLang(translate("navbar.language").toLocaleLowerCase())}}>{translate("navbar.language")}</button></li>
+                    <li className="hover:text-[#229A16]"><button >{translate("navbar.features")}</button></li>
+                    <li className="hover:text-[#229A16]"><button>{translate("navbar.pricing")}</button></li>
+                    <li className="hover:text-[#229A16]"><button>{translate("navbar.signIn")}</button></li>
+                    <li className="hover:text-[#229A16]"><button onClick={()=>{onChangeLang(translate("navbar.language").toLocaleLowerCase())}}>{translate("navbar.language")}</button></li>
                 </ul>
-                <button className="h-12 rounded-md text-white font-semibold" style={{background:"linear-gradient(to top,#54a832,#a1b81c)", padding:"13px 25px"}}>
+                <button className="h-12 rounded-md text-white font-semibold hover:translate-x-1 duration-200" style={{background:"linear-gradient(to top,#54a832,#a1b81c)", padding:"13px 25px"}}>
                     {translate("components.getQuote")}
                 </button>
             </span>
