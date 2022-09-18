@@ -51,14 +51,14 @@ const MyDropdown = () => {
               leaveTo="transform opacity-0 scale-95"
             >
               <Menu.Items className="absolute left-0 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                <div className=" py-1 ">
+                <div className="px-1 py-1 ">
                   <Menu.Item>
                     {({ active }) => (
                        
                       <button
                         className={`${
                           active ? 'bg-[#229A16] text-white' : 'text-gray-900'
-                        } group flex w-full items-center rounded-md px-3 py-2 text-sm space-x-1`}
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm space-x-1`}
                       >
                          <News className="mr-3 w-5"   aria-hidden="true"/>
                         {translate('sections.communications')}
@@ -70,7 +70,7 @@ const MyDropdown = () => {
                       <button
                         className={`${
                           active ? 'bg-[#229A16] text-white' : 'text-gray-900'
-                        } group flex w-full items-center rounded-md px-3 py-2 text-sm`}
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Requests className="mr-3 w-5"   aria-hidden="true"/>
                         {translate('sections.requests')}
@@ -78,13 +78,13 @@ const MyDropdown = () => {
                     )}
                   </Menu.Item>
                 </div>
-                <div className=" py-1">
+                <div className="px-1 py-1">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${
                           active ? 'bg-[#229A16] text-white' : 'text-gray-900'
-                        } group flex w-full items-center rounded-md px-3 py-2 text-sm`}
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Folder className="mr-3 w-5"/>
                         {translate('sections.folders')}
@@ -93,13 +93,13 @@ const MyDropdown = () => {
                   </Menu.Item>
                   
                 </div>
-                <div className=" py-1">
+                <div className="px-1 py-1">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${
                           active ? 'bg-[#229A16] text-white' : 'text-gray-900'
-                        } group flex w-full items-center rounded-md px-3 py-2 text-sm`}
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                       >
                         <Reservations className="mr-3 w-5"/>
                         {translate('sections.reservation')}
