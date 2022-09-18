@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bonsaiManagement/static/css/main.97d76813.css",
-    "main.js": "/bonsaiManagement/static/js/main.08688f38.js",
+    "main.css": "/bonsaiManagement/static/css/main.86a0b0e0.css",
+    "main.js": "/bonsaiManagement/static/js/main.deed959b.js",
     "static/js/787.217d243d.chunk.js": "/bonsaiManagement/static/js/787.217d243d.chunk.js",
     "static/media/logo.svg": "/bonsaiManagement/static/media/logo.4b6bc880be98822a0f5f1394644f9126.svg",
     "index.html": "/bonsaiManagement/index.html",
-    "main.97d76813.css.map": "/bonsaiManagement/static/css/main.97d76813.css.map",
-    "main.08688f38.js.map": "/bonsaiManagement/static/js/main.08688f38.js.map",
+    "main.86a0b0e0.css.map": "/bonsaiManagement/static/css/main.86a0b0e0.css.map",
+    "main.deed959b.js.map": "/bonsaiManagement/static/js/main.deed959b.js.map",
     "787.217d243d.chunk.js.map": "/bonsaiManagement/static/js/787.217d243d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97d76813.css",
-    "static/js/main.08688f38.js"
+    "static/css/main.86a0b0e0.css",
+    "static/js/main.deed959b.js"
   ]
 }
