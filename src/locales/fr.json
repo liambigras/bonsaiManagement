@@ -11,5 +11,11 @@
     "homepage": {
         "title": "Gestion de condos, simplifiée.",
         "description": "Offrez la meilleure expérience condo à vos résidents, tout en ayant des outils puissants pour une gestion simple et efficace."
+    },
+    "sections": {
+        "communications": "Communications",
+        "requests": "Demandes",
+        "folders": "Dossiers",
+        "reservation": "Réservations"
     }
 }

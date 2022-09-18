@@ -11,5 +11,11 @@
     "homepage": {
         "title": "Simplified Condo Management.",
         "description": "Offer the best condo experience to your residents while having the tools for efficient management."
+    },
+    "sections": {
+        "communications": "Communications",
+        "requests": "Requests",
+        "folders": "Folders",
+        "reservation": "Reservations"
     }
 }
