@@ -17,5 +17,11 @@
         "requests": "Demandes",
         "folders": "Dossiers",
         "reservation": "Réservations"
+    },
+    "communication": {
+        "description": "Envoyez vos communications par courriel et message texte à tous vos résidents.",
+        "point1": "Utilisez nos modèles et envoyez des communications professionnelles en quelques secondes.",
+        "point2": "Créez vos communications et rappels à l’avance pour obtenir un taux de participation élevé.",
+        "point3": "Visualisez si vos résidents ont reçu et lu leurs communications en temps réel."
     }
 }
