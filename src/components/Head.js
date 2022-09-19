@@ -3,10 +3,10 @@
 const Head = () => {
     return (
         <head>
-            <title>BonsaiManagement - Best condo management web App.</title>
+            <title>BonsaiManagement - Best condo management web app EVER!</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-            <meta property="og:title" content="Bonsai | Best condo management web App"></meta>
+            <meta property="og:title" content="Bonsai | Best condo management web app"></meta>
             <meta name="description" content="Manage everything in one simple space. Send out communications, 
                                                 chat and even receive residents requests. Centralize your data in one place
                                                 to save time."/>
