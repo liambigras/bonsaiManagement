@@ -8,7 +8,7 @@ import logo from '../logo.svg';
 const Navbar = () => {
     const { translate, onChangeLang } = useLocales();
 
-    return (<div className="h-20 flex justify-center align-middle absolute w-full" style={{borderBottom: "1px solid #e0e0e0"}}>
+    return (<div className="h-20 flex justify-center align-middle absolute w-full overflow-x-clip" style={{borderBottom: "1px solid #e0e0e0"}}>
         <div className="max-w-7xl w-full  flex justify-between mx-4 items-center">
             <img  width="150px" height="auto" className=" flex align-middle" src={logo} style={{  verticalAlign:"middle", backgroundRepeat: "no-repeat"}}alt="logo"/>
             <span className="  flex-row space-x-6 items-center hidden md:flex">

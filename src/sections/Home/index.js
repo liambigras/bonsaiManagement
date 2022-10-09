@@ -30,7 +30,7 @@ const ViewportBlock = handleViewport(Block);
 const Home = () => {
     
     return (
-    <div className='relative w-full h-[100vh] bg-center bg-cover font-poppins ' style={{backgroundImage:"url(/bonsaiManagement/ressources/bgbanner.jpg)"}}>
+    <div className='relative w-full h-[100vh] bg-center bg-cover font-poppins overflow-x-hidden' style={{backgroundImage:"url(/bonsaiManagement/ressources/bgbanner.jpg)"}}>
         
         <Navbar />
         <ViewportBlock  />
