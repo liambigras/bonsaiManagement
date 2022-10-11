@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/bonsaiManagement/static/css/main.3e023f6d.css",
-    "main.js": "/bonsaiManagement/static/js/main.44cf4529.js",
+    "main.css": "/bonsaiManagement/static/css/main.39c7bf0e.css",
+    "main.js": "/bonsaiManagement/static/js/main.170781fb.js",
     "static/js/787.217d243d.chunk.js": "/bonsaiManagement/static/js/787.217d243d.chunk.js",
+    "static/media/about.svg": "/bonsaiManagement/static/media/about.31743cb274b328cd79615ab097fa5a57.svg",
     "static/media/communications.svg": "/bonsaiManagement/static/media/communications.fea800c91879febff4761de2e5d797aa.svg",
     "static/media/logo.svg": "/bonsaiManagement/static/media/logo.4b6bc880be98822a0f5f1394644f9126.svg",
     "index.html": "/bonsaiManagement/index.html",
-    "main.3e023f6d.css.map": "/bonsaiManagement/static/css/main.3e023f6d.css.map",
-    "main.44cf4529.js.map": "/bonsaiManagement/static/js/main.44cf4529.js.map",
+    "main.39c7bf0e.css.map": "/bonsaiManagement/static/css/main.39c7bf0e.css.map",
+    "main.170781fb.js.map": "/bonsaiManagement/static/js/main.170781fb.js.map",
     "787.217d243d.chunk.js.map": "/bonsaiManagement/static/js/787.217d243d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e023f6d.css",
-    "static/js/main.44cf4529.js"
+    "static/css/main.39c7bf0e.css",
+    "static/js/main.170781fb.js"
   ]
 }
