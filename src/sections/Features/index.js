@@ -88,7 +88,7 @@ const Features = () => {
                     </div>
                    
                     <div className='flex justify-center'>
-                    <div className="grid max-w-7xl grid-cols-1 md:grid-cols-5 mx-2 xl:mx-0 my-20 "   >
+                    <div className="grid max-w-7xl grid-cols-1 md:grid-cols-5 mx-2 xl:mx-0 my-32 "   >
                     
                     <ViewPortRequestHeader />
                     <div className="md:col-span-2">
@@ -96,7 +96,7 @@ const Features = () => {
                      </div>
                  </div>
                     </div>
-                    <div className="bg-white w-full">
+                    <div className="bg-white w-full ">
                     <div className='w-full bg-white h-[99px] origin-top-left -rotate-3' />
                     </div>
                 </div>
