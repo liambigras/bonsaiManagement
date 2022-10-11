@@ -45,10 +45,10 @@ const RequestHeader = (props) => {
     const { inViewport, forwardedRef } = props;
     const size  = useWindowSize();
     const opacity = inViewport ? 1 : 0;
-	const position = inViewport ? 0 : 100;
+	const position = inViewport ? 100 : 0;
    
     return (
-        <div ref={forwardedRef} className=' col-span-3 transition-all duration-700 mt-10 md:mt-20  ' style={{ opacity: opacity, transform: `translateX(${size && size.width > 800 ? position : 0}px)` }}>
+        <div ref={forwardedRef} className=' col-span-3 transition-all duration-700 mt-10 md:mt-20  ' style={{ opacity: opacity, transform: `translateX(${size && size.width > 800 ? position-120 : 0}px)` }}>
                         <h2 className='tracking-wide  text-[17px] font-semibold text-[#54a832]  '>{translate("sections.requests").toLocaleUpperCase()}</h2>
                         <h1 className='font-bold text-[28px] md:text-[34px] leading-11 pt-5 '>{translate("requests.description")}</h1><br/>
                             <ul className=''>
