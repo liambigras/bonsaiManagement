@@ -23,5 +23,11 @@
         "point1": "Utilisez nos modèles et envoyez des communications professionnelles en quelques secondes.",
         "point2": "Créez vos communications et rappels à l’avance pour obtenir un taux de participation élevé.",
         "point3": "Visualisez si vos résidents ont reçu et lu leurs communications en temps réel."
+    },
+    "requests": {
+        "description": "Gérez toutes les demandes de vos résidents",
+        "point1": "Attribuez des demandes spécifiques aux membres de votre conseil d’administration.",
+        "point2": "Recevez des rappels et des courriels de toutes vos requêtes.",
+        "point3": "Tenez vos résidents informés de l’état de leur demande."
     }
 }

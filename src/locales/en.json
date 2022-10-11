@@ -20,8 +20,14 @@
     },
     "communication": {
         "description": "Send your building communications by email and text message to all your residents.",
-        "point1": "Utilisez nos modèles et envoyez des communications professionnelles en quelques secondes.",
+        "point1": "Use our templates and send professional communications within seconds.",
         "point2": "Create your communications and reminders in advance to get a high participation rate.",
         "point3": "See if your residents have received and viewed their communications in real-time."
+    },
+    "requests": {
+        "description": "Manage all your resident’s requests",
+        "point1": "Assign specific requests to members of your board.",
+        "point2": "Receive follow-up notifications and emails of all your requests.",
+        "point3": "Keep your residents informed of their request status."
     }
 }
